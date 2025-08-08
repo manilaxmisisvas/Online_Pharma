@@ -18,7 +18,7 @@ const UserProfile = () => {
       }
 
       try {
-        const response = await axios.get("http://localhost:8080/api/user/profile", {
+        const response = await axios.get("https://online-pharma-backend.onrender.com/api/user/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
@@ -66,7 +66,7 @@ const UserProfile = () => {
     const { password, ...safeUser } = user; // exclude password
 
     try {
-      await axios.put("http://localhost:8080/api/user/update", safeUser, {
+      await axios.put("https://online-pharma-backend.onrender.com/api/user/update", safeUser, {
         headers: { Authorization:` Bearer ${token} `},
       });
       alert("Profile updated successfully.");
