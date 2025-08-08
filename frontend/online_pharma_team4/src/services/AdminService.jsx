@@ -1,7 +1,7 @@
 // src/services/AdminService.js
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8080/api/admin";
+const API_BASE_URL = "https://online-pharma-backend.onrender.com/api/admin";
 
 const getAuthHeaders = () => ({
   Authorization: `Bearer ${localStorage.getItem("token")}`,
