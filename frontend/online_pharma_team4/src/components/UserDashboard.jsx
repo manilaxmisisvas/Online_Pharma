@@ -14,7 +14,7 @@ const UserDashboard = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/drugs")
+      .get("https://online-pharma-backend.onrender.com/api/drugs")
       .then((response) => {
         setDrugs(response.data);
       })
