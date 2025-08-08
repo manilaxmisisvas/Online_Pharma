@@ -44,7 +44,7 @@ export default function OAuthSuccess() {
 
     console.log(" Decoded JWT payload:", payload);
 
-    fetch("http://localhost:8080/api/user/profile", {
+    fetch("https://online-pharma-backend.onrender.com/api/user/profile", {
       headers: {
         Authorization: `Bearer ${token}`,
       },
