@@ -1,0 +1,30 @@
+services:
+  - type: web
+
+    name: online-pharma_backend
+
+    runtime: docker
+
+    repo: https://github.com/manilaxmisisvas/Online_Pharma
+
+    rootDir: backend/onlinepharma_backend
+
+    dockerfilePath: Dockerfile
+
+    plan: free
+
+  - type: web
+
+    name: online-pharma-frontend
+
+    env: node
+
+    repo: https://github.com/manilaxmisisvas/Online_Pharma
+
+    rootDir: frontend/online_pharma_team4
+
+    plan: free
+
+    buildCommand: npm install && npm run build
+
+    startCommand: npx serve -s dist
