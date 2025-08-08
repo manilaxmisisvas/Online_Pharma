@@ -34,7 +34,7 @@ const PaymentPage = () => {
         navigate("/login");
         return;
       }
-      const response = await axios.get("http://localhost:8080/api/user/profile", {
+      const response = await axios.get("https://online-pharma-backend.onrender.com/api/user/profile", {
         headers: { Authorization:` Bearer ${token}` },
       });
       setUser(response.data);
