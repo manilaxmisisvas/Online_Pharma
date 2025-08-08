@@ -20,7 +20,7 @@ const Login = () => {
   };
 
   const handleOAuth = (provider) => {
-    window.location.href = `http://localhost:8080/oauth2/authorization/${provider}`;
+    window.location.href = `https://online-pharma-backend.onrender.com/oauth2/authorization/${provider}`;
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
