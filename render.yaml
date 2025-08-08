@@ -8,7 +8,6 @@ services:
     repo: https://github.com/manilaxmisisvas/Online_Pharma
 
     rootDir: backend/onlinepharma_backend
-
     dockerfilePath: Dockerfile
 
     plan: free
