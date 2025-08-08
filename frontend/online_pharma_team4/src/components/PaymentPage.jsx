@@ -66,7 +66,7 @@ const PaymentPage = () => {
         try {
           const upiId=response.razorpay_payment_id;
           await axios.post(
-            `http://localhost:8080/api/user/${user.id}/orders`,
+            `https://online-pharma-backend.onrender.com/api/user/${user.id}/orders`,
             { drugs ,upiId}, // send drugs with id and quantity
             { headers: { Authorization:` Bearer ${localStorage.getItem("token")}` } }
           );
