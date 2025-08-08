@@ -54,7 +54,7 @@ public class CustomOAuth2SuccessHandler implements AuthenticationSuccessHandler 
 
         String token = jwtUtil.generateTokenFromEmail(email);
 
-        response.sendRedirect("http://localhost:5173/oauth-success?token=" + token);
+        response.sendRedirect("https://online-pharma-frontend.onrender.com/oauth-success?token=" + token);
     }
 
 }
