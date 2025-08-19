@@ -207,7 +207,8 @@ You can test backend APIs using Postman.
 
 ### Admin Dashboard
 
-![Admin Dashboard](https://res.cloudinary.com/dlbdbhxet/image/upload/v1754390866/b3nnxqtbsfherzoxazlt.png)
+<img width="1905" height="769" alt="Admindashboard" src="https://github.com/user-attachments/assets/e336ba40-7858-4b0e-be4c-ed86d5e176e9" />
+
 
 ### View Products
 
