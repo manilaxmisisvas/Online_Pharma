@@ -196,8 +196,8 @@ You can test backend APIs using Postman.
 ![Login Page](https://res.cloudinary.com/dlbdbhxet/image/upload/v1754477077/vbvnosspg4pnmv3jewuq.png)
 
 ### User Dashboard
+<img width="1777" height="880" alt="userdashboardwith_images" src="https://github.com/user-attachments/assets/c7450b43-a392-4e31-a1fe-a18d1a9f5669" />
 
-![User Dashboard](https://res.cloudinary.com/dlbdbhxet/image/upload/v1754477474/es82xrx1w5nqbetp20lo.png)
 
 ### User Profile
 ![User Profile](https://res.cloudinary.com/dlbdbhxet/image/upload/v1754477599/ikmjma5bvmhjqnhymfny.png)
